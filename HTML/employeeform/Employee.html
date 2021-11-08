@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Emplyee Registration Application</title>
+		
+		<script type="text/javascript" src="Employee.js">
+			
+		</script>
+		<link rel="stylesheet" href="Employeestyle.css">
+	</head>
+	<body onload="onstart()" >
+	<table width="100%"height="100%">
+		<tr>
+		<td width="30%">
+		<div class="div1">
+			<h2>EMPLOYEE RRGISTRATION APPLICATION</h2><br>
+			
+				<input type="text" id="name" placeholder="Enter Employee name here..."/><br><br>
+				<input type="text" id="email" placeholder="Enter Mail id here..."/><br><br>
+				<input type="date" id="dob" placeholder="Enter Date of Birth here...*"/><br><br>
+				<input type="radio" id="male" value="Male" name="gender" >Male
+				<input type="radio" id="Female" value="Female" name="gender" >Female<br><br>
+				<label for="language">select your language:</label>
+				<select id="language">
+				<option value="">--make a choice--</option>
+				<option value="">Kannada</option>
+				<option value="">Hindi</option>
+				<option value="">Engish</option>
+				</select><br><br>
+				<button class="button2"type="button"  id="addbtn" >Add</button>
+			
+			
+			
+		</div>
+		</td>
+		<td width="65%">
+		<div class="div2">
+			<h2 class="h">EMPLOYEE REGISTERED LIST..!!</h2
+		</div>
+		<div class="scrollmenu">
+		 <table class="table1" id="add">
+            <tr>
+               <th class="table1">NAME</th>
+               <th class="table1">GMAIL</th>
+               <th class="table1">DOB</th>
+               <th class="table1">DELETE</th>
+			   <th class="table1">UPDATE</th>
+            </tr>
+            <tbody id="tbdy">
+
+            </tbody>
+        </table>
+		</div>
+		</td>
+		</tr>
+	</table>
+		
+	</body>
+	
+</html>

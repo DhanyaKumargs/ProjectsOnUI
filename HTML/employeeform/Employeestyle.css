@@ -1,0 +1,108 @@
+button{
+		color:red;
+		background-color:#E0AD36;
+		font-size: 20px;
+		}
+.button1:hover {
+			  background-color: red;
+			  color: white;
+			}
+.button2:hover {
+			  background-color: green;
+			  color: white;
+			}
+h2{
+	color:white;
+	font-size:20px;
+	background-color:brown;
+	padding-left:80px,80px;
+	
+}
+.div1 {
+		background-image:url("../images/register.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		object-fit: fill;
+		border: 5px outset red;
+		height:615px;
+		
+		
+		width:100%
+			  
+	}
+.div2 {
+		background-image:url("../images/register2.jpg");
+		background-position: fill;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		object-fit: fill;
+		border: 5px outset blue;
+		height:615px; 
+		width:100%;
+		overflow-y:hidden;
+		overflow-x:auto;
+		white-space:nowrap;
+		
+}
+div.scrollmenu{
+		background:transparent;
+		background-position: fill;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		object-fit: fill;
+		border: 2px outset black;
+		height:90%; 
+		width:100%;
+		overflow-y:auto;
+		overflow-x:hidden;
+		white-space:nowrap;
+}
+input[type="text"] {
+		width:40%;
+		border:0;
+		border-bottom:2px solid red;
+		background:transparent;
+		outline:non;
+		color:black;
+		padding: 10px 15px;
+		overflow:auto;
+		box-sizing: border-box;
+	}
+input[type="date"] {
+		width:40%;
+		border:0;
+		border-bottom:2px solid red;
+		background:transparent;
+		outline:non;
+		placeholder:#fff;
+		padding: 10px 15px;
+		box-sizing: border-box;
+	}
+input[type="submit"] {
+		color:black;
+		background-color:#6F876E;
+		font-size: 25px;
+		padding: 10px 15px;
+	}
+
+ul li{
+	font-size:20px;
+	color:white;
+	line-height:2em;
+	
+}
+
+
+.h{
+	margin-left:10px;
+	margin-right:25px;
+}
+.table1{
+	border:1px solid silver;
+	color:white;
+	font-size:20px;
+}
