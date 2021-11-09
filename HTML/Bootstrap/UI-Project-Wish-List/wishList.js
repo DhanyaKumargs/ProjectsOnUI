@@ -77,6 +77,9 @@ function edit(k){
     editval=k;
     document.querySelector("#add").innerHTML="Edit"; 
     alert(" Now you can edit in below box")
+    var edit = JSON.parse(localStorage.getItem(na[1]));
+    document.querySelector("#wish").value= edit[editval].wish;
+    document.querySelector("#description").value= edit[editval].description;
 }
 // edit wish and description
 function editshow(l){
